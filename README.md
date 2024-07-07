@@ -1,17 +1,31 @@
 # apache airflow
 
+이 프로젝트는 astro cli 를 이용하여 local 에서 airflow 개발 환경을 구성합니다.
+
+astro 를 통해 local 개발 환경 세팅 방법
+
+- [https://www.astronomer.io/docs/astro/cli/install-cli](https://www.astronomer.io/docs/astro/cli/install-cli)
+- [https://www.astronomer.io/docs/astro/cli/get-started-cli](https://www.astronomer.io/docs/astro/cli/get-started-cli)
+- [https://www.astronomer.io/docs/learn/pycharm-local-dev](https://www.astronomer.io/docs/learn/pycharm-local-dev)
+
 # how to run project
 
 실행
 
 ```bash
-docker-compose up
+astro dev start
 ```
 
 종료
 
 ```bash
-docker-compose down
+astro dev stop
+```
+
+재실행
+
+```bash
+astro dev restart
 ```
 
 # airflow 설치
