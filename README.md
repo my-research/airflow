@@ -28,6 +28,15 @@ astro dev stop
 astro dev restart
 ```
 
+# 학습 목록
+
+[dag 를 생성하는 3가지 방법](#),
+[bash operator 사용](#),
+[dag 에서 task direction 설정](#),
+[bashOperator 를 이용하여 shell script 실행](#),
+[PythonOperator 사용하기](#),
+[bash operator 사용](#),
+
 # airflow 설치
 
 - [https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html)
