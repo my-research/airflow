@@ -1,9 +1,10 @@
 import requests
+
 from airflow import Dataset
 from airflow.decorators import dag, task
 from pendulum import datetime
 
-### astro project 에 의해 생성된 파일
+
 @dag(
     # Define the basic parameters of the DAG, like schedule and start_date
     start_date=datetime(2024, 1, 1),
