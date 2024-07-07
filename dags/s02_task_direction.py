@@ -6,7 +6,7 @@ from pendulum import datetime
 기본적으로 dags 는 다음과 같이 정의할 수 있음
 """
 with DAG(
-    dag_id='bash_operator',
+    dag_id='s02_task_direction',
     schedule="0 0 * * *",
     start_date=datetime(2024, 7, 7, tz="Asia/Seoul"),
     catchup=False,
