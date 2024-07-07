@@ -35,7 +35,3 @@ astro dev restart
 ```bash
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.9.2/docker-compose.yaml'
 ```
-
-# pycharm 에서 airflow project 세팅
-
-[https://www.astronomer.io/docs/learn/pycharm-local-dev](https://www.astronomer.io/docs/learn/pycharm-local-dev)
