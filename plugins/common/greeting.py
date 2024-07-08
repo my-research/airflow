@@ -2,4 +2,4 @@ from pprint import pprint
 from random import random
 
 
-def greet(): pprint('hello')
+def greet(*args): pprint(f'hello {args}')

@@ -13,9 +13,10 @@ from pendulum import datetime
     catchup=False,
 )
 def s04_operators():
-    generate_random = PythonOperator(
+    greeting_task = PythonOperator(
         task_id='greeting_task',
-        python_callable=greeting.greet
+        python_callable=greeting.greet,
+        op_args=['jangwonik']
     )
 
 
