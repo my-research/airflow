@@ -28,12 +28,12 @@ astro dev logs
 
 # 학습 목록
 
-[dag 를 생성 하는 3가지 방법](#),
-[bash operator 사용](#),
-[dag 에서 task direction 설정](#),
-[bashOperator 를 이용 하여 shell script 실행](#),
-[PythonOperator 사용 하기](#),
-[bash operator 사용](#),
+dag 를 생성 하는 3가지 방법, ([Dag Declaration](#)),
+bash operator, ([BashOperator](#)),
+dag 에서 task direction 설정, ([Task Directions & connection](#)),
+bashOperator 를 이용 하여 shell script 실행, ([using external resources](#)),
+PythonOperator 사용 하기, ([PythonOperator, op_args, op_kwargs](#)),
+`@task` decorator 로 task 선언 하기 [task decorator](#),
 
 # airflow 설치
 
