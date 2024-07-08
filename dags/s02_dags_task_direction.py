@@ -4,12 +4,12 @@ from airflow.operators.bash import BashOperator
 from pendulum import datetime
 
 @dag(
-    dag_id='s02_task_direction',
+    dag_id='s02_dags_task_direction',
     start_date=datetime(2024, 7, 7, tz="Asia/Seoul"),
     schedule="0 0 * * *",
     catchup=False,
 )
-def s02_task_direction():
+def s02_dags_task_direction():
     t1 = BashOperator(task_id='t1', bash_command='echo hello t1')
     t2 = BashOperator(task_id='t2', bash_command='echo hello t2')
     t3 = BashOperator(task_id='t3', bash_command='echo hello t3')
@@ -24,4 +24,4 @@ def s02_task_direction():
     [t4 >> t7] >> t6 >> t8
 
 
-s02_task_direction()
+s02_dags_task_direction()
