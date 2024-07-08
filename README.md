@@ -1,6 +1,6 @@
 # apache airflow
 
-이 프로젝트는 astro cli 를 이용하여 local 에서 airflow 개발 환경을 구성합니다.
+이 프로젝트 는 astro cli 를 이용 하여 airflow 를 학습합니다.
 
 astro 를 통해 local 개발 환경 세팅 방법
 
@@ -13,28 +13,26 @@ astro 를 통해 local 개발 환경 세팅 방법
 실행
 
 ```bash
+### 실행
 astro dev start
-```
 
-종료
-
-```bash
+### 종료
 astro dev stop
-```
 
-재실행
-
-```bash
+### 재실행
 astro dev restart
+
+### 로그 확인
+astro dev logs
 ```
 
 # 학습 목록
 
-[dag 를 생성하는 3가지 방법](#),
+[dag 를 생성 하는 3가지 방법](#),
 [bash operator 사용](#),
 [dag 에서 task direction 설정](#),
-[bashOperator 를 이용하여 shell script 실행](#),
-[PythonOperator 사용하기](#),
+[bashOperator 를 이용 하여 shell script 실행](#),
+[PythonOperator 사용 하기](#),
 [bash operator 사용](#),
 
 # airflow 설치
